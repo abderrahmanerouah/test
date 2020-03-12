@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK-PAPER-SEASOR</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class='title'>
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div class="score">
+            <p>score</p>
+            <h1 id="score-global">12</h1>
+        </div>
+    </header>
+    <section id="section">
+        <div class="paper icon"><img src="images/icon-paper.svg" alt=""></div>
+        <div class="scissors icon"><img src="images/icon-scissors.svg" alt=""></div>
+        <div class="rock icon"><img src="images/icon-rock.svg" alt=""></div>
+
+    </section>
+    <section id="choices">
+<div class="user"></div>
+<div class="cpu"></div>
+
+
+    </section>
+    <div class="rules">
+        <div class="rules-menu">
+            <h1>Rules</h1>
+            <a href="#" id="exit" onclick="popUp()">
+            <h1>X</h1>
+        </a>
+        </div>
+        <img src="images/image-rules.svg" alt="">
+    </div>
+    <input type="submit" value="Rules" id="rules" onclick="popUp()">
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
